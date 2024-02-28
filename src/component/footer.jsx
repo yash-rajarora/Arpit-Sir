@@ -42,9 +42,10 @@ export default function Footer() {
       bg={useColorModeValue('white', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}
     >
-      <Container maxW={'6xl'} py={10} >
-        <Box px={'40%'} textAlign={'center'}>
+      <Container maxW={'6xl'} py={10} mb={['10','']} >
+        <Box px={['25%','40%']} textAlign={'center'}>
           <Wrap >
+          <Stack direction={'row'}>
             <Link to='https://www.facebook.com/arpitjecrc/' target="_blank" rel="noopener noreferrer">
             <Button size={'md'}  colorScheme="facebook" ><FaFacebook />
             </Button></Link>
@@ -57,6 +58,7 @@ export default function Footer() {
             <Link to='https://www.linkedin.com/in/arpitjecrc/' target="_blank" rel="noopener noreferrer">
             <Button size={'md'} colorScheme="linkedin"><FaLinkedin />
             </Button></Link>
+            </Stack>
           </Wrap>
         </Box>
       </Container>
