@@ -52,7 +52,7 @@ export default function Home() {
       </VStack>
     </Flex>
     
-  <Box height={['90vh','80vh']} pt={'5%'} px={['5%', '0%']} mb={['50%','']}>
+  <Box height={['90vh','70vh']} pt={'5%'} px={['5%', '0%']} mb={['50%','0']}>
   <Container maxW={'5xl'} py={12}>
     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
       {/* For mobile view, order the items differently */}
